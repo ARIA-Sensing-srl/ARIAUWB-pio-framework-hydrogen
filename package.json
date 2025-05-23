@@ -1,0 +1,7 @@
+{
+    "description": "Hydrogen SoC SDK",
+    "name": "ARIAUWB-pio-framework-hydrogen",
+    "system": "all",
+    "url": "",
+    "version": "1.0.0"
+}
