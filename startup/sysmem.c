@@ -32,4 +32,7 @@ void * _sbrk(ptrdiff_t incr){
 	return (void*)prev_heap_end;
 }
 
-
+void _write(){};
+void _close(){};
+void _lseek(){};
+void _read(){};

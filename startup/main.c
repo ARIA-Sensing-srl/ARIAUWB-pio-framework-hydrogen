@@ -20,7 +20,6 @@
 #include "hal_intc.h"
 #include "hydrogen_UD_v1.h"
 #include "main.h"
-#include "app.h"
 #include "hal_clkmgr.h"
 #include "hal_system.h"
 #include "models.h"
@@ -69,6 +68,7 @@ volatile uint32_t HAL_getSysTick();
 uint32_t HAL_getElapsed(uint32_t start);
 //** PUBLIC FUNCTIONS END **//
 
+extern int app_entry(HydrUDriver_t*);
 
 __attribute__((noreturn))
 static void priv_error_state(){

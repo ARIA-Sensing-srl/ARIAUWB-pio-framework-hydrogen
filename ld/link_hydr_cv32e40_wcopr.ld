@@ -3,7 +3,6 @@
 /* not needed, but we need separate linker scripts anyway */
 OUTPUT_ARCH(riscv)
 SEARCH_DIR(.)
-ENTRY(_start)
 /* We have to align each sector to word boundaries as our current s19->slm
  * conversion scripts are not able to handle non-word aligned sections. */
  
