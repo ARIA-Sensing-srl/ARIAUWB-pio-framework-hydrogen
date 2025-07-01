@@ -94,6 +94,7 @@ default_handler:
 	mret
 
 
+
 .section .text.coprraw
 .incbin "coprimg-aa.bin"
 
